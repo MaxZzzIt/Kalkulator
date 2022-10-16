@@ -127,7 +127,7 @@ public class KalkDannie extends JFrame{
 				kalkTF1.setText(kalkTF1.getText()+"0");
 			}
 		});
-		setTitle("Калькулятор");
+		setTitle("Kalkulator");
 		setSize(330, 215);
 		setLocationRelativeTo(null);
 		setResizable(false);

@@ -67,7 +67,7 @@ public class KalkVichislenie {
                     kalkDannie.kalkTF1.setText(null);
                     kalkDannie.summa = kalkDannie.ch1+kalkDannie.ch2;
                     kalkDannie.kalkTF1.setText(kalkDannie.summa+"");
-                    System.out.println("Сумма "+ kalkDannie.ch1+" + "+kalkDannie.ch2+" = "+kalkDannie.summa);
+                    System.out.println("РЎСѓРјРјР° "+ kalkDannie.ch1+" + "+kalkDannie.ch2+" = "+kalkDannie.summa);
                 }
 
                 if (kalkDannie.minus == 1) {
@@ -76,7 +76,7 @@ public class KalkVichislenie {
                     kalkDannie.kalkTF1.setText(null);
                     kalkDannie.raznost = kalkDannie.ch1-kalkDannie.ch2;
                     kalkDannie.kalkTF1.setText(kalkDannie.raznost+"");
-                    System.out.println("Разность "+ kalkDannie.ch1+" - "+kalkDannie.ch2+" = "+kalkDannie.raznost);
+                    System.out.println("Р Р°Р·РЅРѕСЃС‚СЊ "+ kalkDannie.ch1+" - "+kalkDannie.ch2+" = "+kalkDannie.raznost);
                 }
 
                 if (kalkDannie.umnosh == 1) {
@@ -85,7 +85,7 @@ public class KalkVichislenie {
                     kalkDannie.kalkTF1.setText(null);
                     kalkDannie.proizvedenie = kalkDannie.ch1*kalkDannie.ch2;
                     kalkDannie.kalkTF1.setText(kalkDannie.proizvedenie+"");
-                    System.out.println("Произведение "+ kalkDannie.ch1+" * "+kalkDannie.ch2+" = "+kalkDannie.proizvedenie);
+                    System.out.println("РџСЂРѕРёР·РІРµРґРµРЅРёРµ "+ kalkDannie.ch1+" * "+kalkDannie.ch2+" = "+kalkDannie.proizvedenie);
                 }
 
                 if (kalkDannie.delit == 1) {
@@ -96,7 +96,7 @@ public class KalkVichislenie {
 //				double rezult = Math.ceil(chasnoe);
                     double rezult = Math.round(kalkDannie.chasnoe);
                     kalkDannie.kalkTF1.setText(rezult+"");
-                    System.out.println("Часное "+ kalkDannie.ch1+" / "+kalkDannie.ch2+" = "+rezult);
+                    System.out.println("Р§Р°СЃРЅРѕРµ "+ kalkDannie.ch1+" / "+kalkDannie.ch2+" = "+rezult);
                 }
 
                 kalkDannie.summa = 0;
