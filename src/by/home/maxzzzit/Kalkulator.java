@@ -7,7 +7,8 @@ public class Kalkulator{
 	public static void main(String[]args) {
 		
 		KalkDannie kalkDannie = new KalkDannie("Kalkulator");
-
+		KalkVichislenie kalkVichislenie = new KalkVichislenie();
+		kalkVichislenie.KalkVichislenie();
 		kalkDannie.setSize(330, 215);
 		kalkDannie.setLocationRelativeTo(null);
 		kalkDannie.setResizable(false);

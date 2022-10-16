@@ -4,7 +4,6 @@ import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.text.DecimalFormat;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -14,14 +13,15 @@ import javax.swing.JTextField;
 public class KalkDannie extends JFrame{
 	double ch1, ch2, summa, raznost, proizvedenie, chasnoe;
 	int plus = 0,  minus = 0,  umnosh = 0,  delit = 0;
-	public KalkDannie(String s) {
+	JButton one;
+	KalkDannie(String s) {
 		super(s);	
 
 //		JFrame kalkForm = new JFrame();
 //		JPanel kalkPanel = new JPanel();
 		JTextField kalkTF1 = new JTextField(13);
 		JButton zero = new JButton("  0  ");
-		JButton one = new JButton("  1  ");
+		one = new JButton("  1  ");
 		JButton two = new JButton("  2  ");
 		JButton three = new JButton("  3  ");
 		JButton four = new JButton("  4  ");
@@ -60,12 +60,7 @@ public class KalkDannie extends JFrame{
 		add(kalkButVichislit);
 		setBounds(100,100,250,100);
 		
-		one.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				kalkTF1.setText(kalkTF1.getText()+"1");
-			}
-		});
+
 		
 		two.addActionListener(new ActionListener() {
 			@Override
